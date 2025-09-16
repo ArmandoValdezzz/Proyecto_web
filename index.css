@@ -6,8 +6,9 @@
 }
 
 header{
-  background-color: white;
+  background-image: url(./img/casa-quintasjpg.webp);
   display: flex;
+  height: 300px;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
