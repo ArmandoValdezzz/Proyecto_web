@@ -1,0 +1,146 @@
+*{
+  padding: 0;
+  margin: 0 ;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+header{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  padding: 15px 30px;;
+}
+
+nav{
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 15px;
+  font-size: 16px;
+}
+nav a:hover {
+  color: green
+}
+
+@media (max-width: 600px) {
+  .opciones {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f1f1dc;
+  color: #333;
+}
+h2, h3 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 70px;
+  margin-right: 5px;
+}
+
+.acciones_usuario {
+  text-align: right;
+}
+
+.acciones_usuario a {
+  text-decoration: none;
+  color: #333;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.main {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.main img {
+  height: 250px;
+  margin-bottom:px;
+}
+p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
+
+.opciones {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.opcion {
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 160px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.opcion:hover {
+  transform: scale(1.05);
+}
+
+.opciones img {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.opcion  {
+  margin: 0;
+  font-size: 16px;
+}
+
+.boton {
+  margin-top: 20px;
+}
+
+button {
+  padding: 12.5px 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #b7db14;
+  color: #000000;
+  font-weight: bold;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background-color: #6fc5ff;
+  box-shadow: 0 0 20px #6fc5ff50;
+  transform: scale(1.1);
+}
+
+button:active {
+  background-color: #3d94cf;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  box-shadow: 0 0 5px #000000;
+  transform: scale(0.98);
+}
+
